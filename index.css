@@ -29,6 +29,8 @@
     font-style: normal;
 }
 
+/* FONTS */
+
 :root {
     font-family: 'worksans', sans-serif, Arial;
     margin-inline: auto;
@@ -73,10 +75,6 @@ p {
     display: flex;
 }
 
-.row:hover {
-    cursor: pointer;
-    color: rgb(173, 39, 234);
-}
 
 .main-title {
     column-gap: 20px;
@@ -86,7 +84,18 @@ p {
 .semi-title {
     justify-content: space-between;
     color: rgb(24, 21, 26);
+
 }
+
+.semi-title:hover {
+    cursor: pointer;
+    color: rgb(173, 39, 234);
+}
+
+.hidden {
+    display: none;
+}
+
 
 /* initial styles */
 .attribution {
@@ -97,3 +106,5 @@ p {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+/* initial styles */
