@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
             pElement.classList.toggle('hidden');
             // Change the icon to depict the action of showing/hiding description
             const image = this.querySelector('img')
-            image.src = image.src === 'https://tdangerw.github.io/faq_accordion_solution/assets/images/icon-plus.svg' ? 'https://tdangerw.github.io/faq_accordion_solution/assets/images/icon-minus.svg' : 'https://tdangerw.github.io/faq_accordion_solution/assets/images/icon-plus.svg'
+            image.src = image.src === './assets/images/icon-plus.svg' ? './assets/images/icon-minus.svg' : './assets/images/icon-plus.svg'
         });
     });
 });
